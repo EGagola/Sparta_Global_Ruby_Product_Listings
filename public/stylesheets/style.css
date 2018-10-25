@@ -1,0 +1,38 @@
+body {
+  background-color: navajowhite;
+  color: red;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  width: 100%
+}
+h1{
+  color: salmon;
+  font-size: 50pt;
+}
+img{
+  width: 25%;
+  border: 2px red solid;
+  border-radius: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.countries{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: salmon;
+  padding: 10px;
+}
+.options {
+  display: flex;
+  width: 300%;
+  justify-content: space-around;
+}
+.options a {
+  color: black;
+  font-weight: bold;
+}
